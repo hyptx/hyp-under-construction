@@ -54,10 +54,10 @@ function register_uc_options(){
 
 //Admin Page
 function uc_admin_page(){
-	$uc_content = get_option('uc_content');
-	$uc_exclude = get_option('uc_exclude');
 	$default_uc_content = '<div style="margin-top:50px; text-align:center;"><h2>Under Construction</h2><img src="' . WP_PLUGIN_URL . '/under-construction/construction.png"/><p>Sorry, but this page is under construction</p></div>';
 	if(get_option('uc_content') == ''){ update_option('uc_content', $default_uc_content); }
+	$uc_content = get_option('uc_content');
+	$uc_exclude = get_option('uc_exclude');
 	?>
 	<style type="text/css">
 		.help-text{font-size:11px; font-style:italic;}
