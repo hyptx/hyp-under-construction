@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Under Construction
-Plugin URI: http://hyperspatial.com
+Plugin URI: https://github.com/hyptx/hyp-under-construction
 Description: Automatic Under Construction Messages for new pages
 Version: 1.0
 Author: Adam J Nowak
